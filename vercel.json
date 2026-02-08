@@ -1,0 +1,7 @@
+{
+  "framework": "vite",
+  "installCommand": "npm run install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "react-weather/dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}

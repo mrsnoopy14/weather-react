@@ -1,5 +1,7 @@
 # Weather Forecast
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+
 This workspace contains:
 
 - A **React + ES6** rebuild in the `react-weather/` folder (recommended)
@@ -30,6 +32,23 @@ Routes:
 
 - `/` Landing page (Get Started)
 - `/weather` Search weather page
+
+## Deploy to Vercel
+
+This repo is a small monorepo (React app is in `react-weather/`). Deployment is configured via `vercel.json` so Vercel can build from the repo root.
+
+1) In Vercel, click **Add New → Project** and import this GitHub repo.
+2) When asked for an **Environment Variable**, add:
+
+- `VITE_OWM_API_KEY` = your OpenWeather API key
+
+3) Deploy.
+
+Vercel will use:
+
+- Install: `npm run install`
+- Build: `npm run build`
+- Output: `react-weather/dist`
 
 ## Original version (reference)
 
