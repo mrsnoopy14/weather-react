@@ -1,0 +1,11 @@
+{
+  "name": "weather-workspace",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "install": "npm --prefix react-weather install",
+    "dev": "npm --prefix react-weather run dev",
+    "build": "npm --prefix react-weather run build",
+    "preview": "npm --prefix react-weather run preview"
+  }
+}

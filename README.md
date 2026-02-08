@@ -1,6 +1,39 @@
-# Weather_Forecast
+# Weather Forecast
 
-This project is a simple weather forecast website built using HTML, CSS, and JavaScript. It provides users with current weather conditions.
+This workspace contains:
+
+- A **React + ES6** rebuild in the `react-weather/` folder (recommended)
+- The original **HTML/CSS/JS** version in the workspace root (reference)
+
+## Run the React (ES6) version
+
+1) Install:
+
+```bash
+npm run install
+```
+
+2) Set your API key:
+
+- Edit `react-weather/.env`
+- Set `VITE_OWM_API_KEY=YOUR_OPENWEATHER_KEY`
+
+3) Start:
+
+```bash
+npm run dev
+```
+
+Open: `http://localhost:5173/`
+
+Routes:
+
+- `/` Landing page (Get Started)
+- `/weather` Search weather page
+
+## Original version (reference)
+
+The original static files are still here: `index.html`, `main.html`, `script.js`.
 
 # Features
 
